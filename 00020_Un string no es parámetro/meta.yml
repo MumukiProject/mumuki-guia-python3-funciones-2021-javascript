@@ -1,0 +1,20 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Si, porque en la función `es_biblioteca`, `lugar` es un parámetro de tipo
+    string y debemos indicarlo colocándolo entre comillas
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: No, porque en la función `es_biblioteca`, `lugar` es un parámetro de tipo
+    string, pero los parámetros son nombres que no van entre comillas
+  checked: true
+name: Un string no es parámetro
