@@ -1,11 +1,13 @@
-¿Y podremos combinar estas funciones al igual que hacíamos con los operadores y funciones que ya venían con Python? ¡Por supuesto! :heart_eyes: En otras palabras, _podemos invocar funciones dentro de definiciones_. Por ejemplo:
+¿Y podremos combinar estas funciones al igual que hacíamos con los operadores y funciones que ya venían con JavaScript? ¡Por supuesto! :heart_eyes: En otras palabras, _podemos invocar funciones dentro de definiciones_. Por ejemplo:
 
-```python
-def doble(numero):
-  return 2 * numero
+```javascript
+function doble(numero){
+  return 2 * numero;
+}
 
-def siguiente_del_doble(numero):
-  return doble(numero) + 1
+function siguienteDelDoble(numero){
+  return doble(numero) + 1;
+}
 ```
 
 O incluso mejor:
