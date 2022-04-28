@@ -1,17 +1,21 @@
 Estas son las funciones que definimos hasta ahora. Te pueden servir de inspiración :art:. 
 
 
-```python
-def mitad(un_numero):
-  return un_numero / 2  
+```javascript
+function mitad(unNumero){ 
+  return unNumero / 2;
+}
 
-def suma_longitudes(un_string, otro_string): 
-  return len(un_string) + len(otro_string)  
+function sumaLongitudes (unString, otroString){
+ return unString.length + otroString.length;
+}
   
-def es_pregunta(oracion):
-  return str.startswith(oracion, "¿") and str.endswith(oracion, "?") 
-  
-def es_mas_largo_que(un_string, otro_string):
-  return len(un_string) > len(otro_string)
+function esPregunta(oracion){
+  return oracion.startsWith("¿") && oracion.endsWith("?");
+}
+
+function esMasLargoQue(unString, otroString){
+  return unString.length > otroString.length;
+}
 ```
 

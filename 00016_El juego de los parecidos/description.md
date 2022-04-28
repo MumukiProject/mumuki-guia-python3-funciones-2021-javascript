@@ -2,7 +2,7 @@ Veamos ahora la definición de otra función...
 
 ```javascript
 function esPregunta(oracion){
-  return oracion.startsWith("¿") && oracion.endsWith("?");
+  return oracion.startsWith("¿") && oracion.endsWith("?") 
 }
 ```
 ...la cual podemos usar así: 
