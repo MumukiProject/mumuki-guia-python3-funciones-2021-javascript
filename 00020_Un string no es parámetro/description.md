@@ -1,23 +1,24 @@
 Como vimos, un string puede ser pasado como argumento a una función...
 
-```python
-ム es_biblioteca("Biblioteca De Babel")
-True
-ム es_biblioteca("Biblioteca Del Congreso")
-True
-ム es_biblioteca("Teatro Colón")
-False
+```javascript
+ム esBiblioteca("Biblioteca De Babel")
+true
+ム esBiblioteca("Biblioteca Del Congreso")
+true
+ム esBiblioteca("Teatro Colón")
+false
 ```
 
 ...y además, las funciones pueden tener parámetros, uno por cada argumento que necesite recibir. 
 
 > ¡Momento! ¿Tendremos que escribir de forma diferente nuestros parámetros cuando _son de tipo_ string? :thinking:
 >
-> Por ejemplo, observá la siguiente definición de `es_biblioteca`...
+> Por ejemplo, observá la siguiente definición de `esBiblioteca`...
 > 
-> ```python
-> def es_biblioteca("lugar"):
->  return "biblioteca" in "lugar"
+> ```javascript
+> function esBiblioteca("lugar"){
+>  return "lugar".includes("biblioteca");
+> }
 > ```
 > ...¿está bien escrita? :eyes:
 
