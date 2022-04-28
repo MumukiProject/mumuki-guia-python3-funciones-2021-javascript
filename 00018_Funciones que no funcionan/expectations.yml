@@ -8,7 +8,7 @@ expectations:
   inspection: DeclaresComputationWithArity1:mitad
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:sumaDeLongitudes
+  inspection: DeclaresFunction:sumaLongitudes
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity2:sumaDeLongitudes
+  inspection: DeclaresComputationWithArity2:sumaLongitudes
