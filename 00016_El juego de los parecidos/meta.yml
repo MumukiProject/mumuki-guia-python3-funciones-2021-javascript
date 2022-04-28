@@ -10,21 +10,21 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas empiezan con `def` seguido del nombre de la función
+  value: Ambas empiezan con `function` seguido del nombre de la función
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas empiezan con `def` seguido de dos puntos
+  value: Ambas empiezan con `function` seguido de una llave
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Ambas tienen un `return` en la primera línea
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas tienen un `return` en la última línea
+  value: Ambas tienen un `return` en la anteúltima línea
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas terminan la primera línea con dos puntos
+  value: Ambas terminan la primera línea con una llave
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas arrancan la segunda línea contra el margen
+  value: Ambas comienzan con mayúsculas
   checked: false
 name: El juego de los parecidos
