@@ -1,2 +1,3 @@
-def es_dia_favorito(dia_del_mes):
-  return dia_del_mes == 1 
+function esDiaFavorito(diaDelMes){
+  return diaDelMes === 1 
+}
