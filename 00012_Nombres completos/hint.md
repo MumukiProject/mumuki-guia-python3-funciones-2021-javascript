@@ -1,15 +1,15 @@
-Recordá que podemos averiguar el largo de los strings mediante `len`...
+Recordá que podemos averiguar el largo de los strings mediante `length`...
 
-```python
-ム len("biblioteca")
+```javascript
+ム "biblioteca".length
 10
-ム len("babel")
+ム "babel".length
 5
 ```
 
 ...y también podemos _concatenarlos_, es decir, obtener **uno nuevo** que junta dos strings:
 
-```python
+```javascript
 ム "aa" + "bb"
 "aabb"
 ム "sus anaqueles " + "registran todas las combinaciones"

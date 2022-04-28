@@ -1,8 +1,8 @@
 ¡Practiquemos lo visto!
 
-> Definí una función `longitud_nombre_completo`, que tome un nombre y un apellido, y devuelva su longitud total, **contando un espacio extra** para separar a ambos:
+> Definí la función `longitudNombreCompleto`, que tome un nombre, un segundo nombre y un apellido, y retorne su longitud total, contando dos espacios extra para separarlos:
 >
->```python
-> ム longitud_nombre_completo("Cosme", "Fulanito")
->14
+>```javascript
+> ム longitudNombreCompleto("Cosme", "Miguel", "Fulanito")
+>21
 >```

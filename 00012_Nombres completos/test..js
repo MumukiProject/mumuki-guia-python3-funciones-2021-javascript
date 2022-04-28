@@ -1,23 +1,21 @@
+describe("", function() {
+  it('longitudNombreCompleto("Augusta", "Ada", "Lovelace")', function() {
+    assert.equal(longitudNombreCompleto("Augusta", "Ada", "Lovelace"), 20);
+  });
+  it('longitudNombreCompleto("Haydée", "Mercedes", "Sosa")', function() {
+    assert.equal(longitudNombreCompleto("Haydée", "Mercedes", "Sosa"),20 );
+  });
+  it('longitudNombreCompleto("Elsa", "Isabel", "Bornemann")', function() {
+    assert.equal(longitudNombreCompleto("Elsa", "Isabel", "Bornemann"), 21);
+  });
+})
 
-  def test_longitud_nombre_completo_Cosme_Fulanito(self):
-    self.assertEqual(longitud_nombre_completo("Cosme", "Fulanito"), 14)
 
-  def test_longitud_nombre_completo_John_Snow(self):
-    self.assertEqual(longitud_nombre_completo("John", "Snow"), 9)
-
-  def test_longitud_nombre_completo_Juana_Azurduy(self):
-    self.assertEqual(longitud_nombre_completo("Juana", "Azurduy"), 13)
-    
-  def test_no_falta_contemplar_el_espacio(self):
-    resultado = False
-    try:
-      resultado = [
-        longitud_nombre_completo("", ""),
-        longitud_nombre_completo("abc", "d"),
-      ] == [0, 4]
-    except:
-      pass
-    if resultado:
-      self.fail("¡Te falta contemplar el espacio!")
-    
-      
+describe("longitudNombreCompleto", () => {
+    try {
+      let resultado = longitudNombreCompleto("", "") !== 0 && longitudNombreCompleto("abc", "d") !== 4;
+      it("no falta contemplar el espacio", () => {
+        assert(resultado, "¡Te falta contemplar el espacio!")
+      })
+    } catch(e){}
+})
