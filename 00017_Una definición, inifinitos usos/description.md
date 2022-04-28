@@ -4,7 +4,7 @@ Y para hacer esto, ¡démosle entonces la bienvenida a _las funciones_ :confetti
 
 ```javascript
 function esMasLargoQue(unString, otroString){
-  return un_string.length > otro_string.length;
+  return unString.length > otroString.length;
 }
 ```
 

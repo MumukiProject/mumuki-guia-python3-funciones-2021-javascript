@@ -2,7 +2,7 @@ Veamos ahora la definición de otra función...
 
 ```javascript
 function esPregunta(oracion){
-  return oracion.startswith("¿") && oracion.endswith("?") 
+  return oracion.startsWith("¿") && oracion.endsWith("?") 
 }
 ```
 ...la cual podemos usar así: 
@@ -18,9 +18,10 @@ false
 
 > :mag: Compará esta nueva definición con la que vimos anteriormente...
 >
-> ```python
-> def es_mas_largo_que(un_string, otro_string):
->   return len(un_string) > len(otro_string)
+> ```javascript
+>function esMasLargoQue(unString, otroString){
+  return un_string.length > otro_string.length;
+}
 > ```
 >
 > ...y respondé qué tienen en común.
