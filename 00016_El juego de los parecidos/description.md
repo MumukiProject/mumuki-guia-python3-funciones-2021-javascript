@@ -20,7 +20,7 @@ false
 >
 > ```javascript
 >function esMasLargoQue(unString, otroString){
-  return un_string.length > otro_string.length;
+  return unString.length > otroString.length;
 }
 > ```
 >
