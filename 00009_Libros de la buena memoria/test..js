@@ -1,14 +1,26 @@
+describe('', function() {
+  it("si recuerda haber leído 25 libros, le gusta leer", function() {
+    assert(leGustaLeer(25) === true, "leGustaLeer(25) debe retornar true");
+  });
+  
+  it("si recuerda haber leído 80 libros, le gusta leer", function() {
+    assert(leGustaLeer(80) === true, "leGustaLeer(80) debe retornar true");
+  });
+  
+  it("si recuerda haber leído 1 libro, no le gusta leer", function() {
+    assert(leGustaLeer(1) === false, "leGustaLeer(1) debe retornar false");
+  });
+  
+  it("si recuerda haber leído 15 libros, no le gusta leer", function() {
+    assert(leGustaLeer(15) === false, "leGustaLeer(15) debe retornar false");
+  });
+})
 
-  def test_le_gusta_leer_25_es_verdadero(self):
-    self.assertTrue(le_gusta_leer(25))
-  
-  def test_le_gusta_leer_80_es_verdadero(self):
-    self.assertTrue(le_gusta_leer(80))
-  
-  def test_le_gusta_leer_1_es_falso(self):
-    self.assertFalse(le_gusta_leer(1))
-  
-  def test_le_gusta_leer_15_es_falso(self):
-    self.assertFalse(le_gusta_leer(15))
-  
-  
+describe("leGustaLeer", () => {
+  try {
+    let resultado = leGustaLeer(15) === null || leGustaLeer(15) === undefined || leGustaLeer(100) === null || leGustaLeer(100) === undefined;
+    it("devuelve siempre algo", () => {
+      assert(!resultado, "ojo, tenés que siempre devolver un valor booleano")  
+    })
+  } catch (e) {}
+})

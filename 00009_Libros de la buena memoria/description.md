@@ -1,29 +1,32 @@
-¡Definamos más funciones! :writing_hand: Dani ama el primer dia de cada mes :date:, y por eso definió esta función... 
+¡Veamos más operadores! Dani ama el primer día de cada mes :date:, y por eso definió esta función... 
 
-```python
-def es_dia_favorito(dia_del_mes):
-  return dia_del_mes == 1 
+```javascript
+function esDiaFavorito(diaDelMes) {
+  return diaDelMes === 1 ;
+}
 ```
 
 ...y la usa así (_y la dejó en la biblioteca para que la pruebes_): 
 
-```python
-ム es_dia_favorito(13)
-False
-ム es_dia_favorito(1)
-True
+```javascript
+ム esDiaFavorito(13)
+false
+ム esDiaFavorito(1)
+true
 ```
 
-> ¡Ahora te toca a vos! Dani también dice que a alguien `le_gusta_leer`, cuando la cantidad de libros que recuerda haber leído es mayor a 20. Por ejemplo:
+Como ves, en JavaScript contamos con operadores como `===`, `>=`, `>`, `<`,`<=` que nos dicen si dos valores son iguales, mayores-o-iguales, mayores, etc. Los vamos a usar bastante :grin:.
+
+> ¡Ahora te toca a vos! Dani también dice que a alguien `leGustaLeer`, cuando la cantidad de libros que recuerda haber leído es mayor a 20. Por ejemplo:
 > 
-> ```python
-> ム le_gusta_leer(15)
-> False
+> ```javascript
+> ム leGustaLeer(15)
+> false
 > 
-> ム le_gusta_leer(45)
-> True
+> ム leGustaLeer(45)
+> true
 > ```
 > 
-> Definí y probá en la consola la función `le_gusta_leer`.
+> Definí y probá en la consola la función `leGustaLeer`.
 
 
