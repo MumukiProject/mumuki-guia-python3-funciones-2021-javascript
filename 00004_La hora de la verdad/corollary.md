@@ -6,6 +6,6 @@ Si por ejemplo al parámetro de `horaDeLaVerdad` le pusiste `numero`, está bien
 
 ```javascript
 function esHoraDeLaVerdad(hora){
-  return hora === 12
+  return hora === 12;
 }
 ```
