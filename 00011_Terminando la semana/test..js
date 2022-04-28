@@ -1,14 +1,16 @@
 
-  def test_el_sabado_es_fin_de_semana(self):
-    self.assertTrue(es_fin_de_semana("sábado") or es_fin_de_semana("sabado"))
-
-  def test_el_domingo_es_fin_de_semana(self):
-    self.assertTrue(es_fin_de_semana("domingo"))
-
-  def test_el_lunes_no_es_fin_de_semana(self):
-    self.assertFalse(es_fin_de_semana("lunes"))
-
-  def test_el_viernes_no_es_fin_de_semana(self):
-    self.assertFalse(es_fin_de_semana("viernes"))
-
+describe("", function() {
+  it('el sábado es fin de semana', function() {
+    assert(esFinDeSemana("sábado"));
+  });
+  it('el domingo es fin de semana', function() {
+    assert(esFinDeSemana("domingo"));
+  });
+  it('el lunes no es fin de semana', function() {
+    assert(!esFinDeSemana("lunes"));
+  });
+  it('el viernes no es fin de semana', function() {
+    assert(!esFinDeSemana("viernes"));
+  });
+})
 
