@@ -1,12 +1,11 @@
-class Test(unittest.TestCase):
+it("las 11 no son la hora de la verdad", () => {
+  assert(!esHoraDeLaVerdad(11))
+})
 
-  def test_las_11_no_son_la_hora_de_la_verdad(self):
-    self.assertFalse(es_hora_de_la_verdad(11))
+it("las 14 no son la hora de la verdad", () => {
+  assert(!esHoraDeLaVerdad(14))
+})
 
-  def test_las_14_no_son_la_hora_de_la_verdad(self):
-    self.assertFalse(es_hora_de_la_verdad(14))
-    
-  def test_las_12_son_la_hora_de_la_verdad(self):
-    self.assertTrue(es_hora_de_la_verdad(12))
-
-
+it("las 12 son la hora de la verdad", () => {
+  assert(esHoraDeLaVerdad(12))
+})
