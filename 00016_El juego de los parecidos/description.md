@@ -1,16 +1,17 @@
 Veamos ahora la definición de otra función... 
 
-```python
-def es_pregunta(oracion):
-  return str.startswith(oracion, "¿") and str.endswith(oracion, "?") 
+```javascript
+function esPregunta(oracion){
+  return oracion.startswith("¿") && oracion.endswith("?") 
+}
 ```
 ...la cual podemos usar así: 
 
-```python
-ム es_pregunta("¿Qué hora es?")
-True
-ム es_pregunta("¡En esta casa obedecemos las leyes de la termodinámica!")
-False
+```javascript
+ム esPregunta("¿Qué hora es?")
+true
+ム esPregunta("¡En esta casa obedecemos las leyes de la termodinámica!")
+false
 ```
 
 ¿Se parece la definición de esta función a la anterior? ¿Por qué será?
