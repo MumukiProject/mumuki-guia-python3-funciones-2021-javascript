@@ -23,7 +23,7 @@ false // las dos veces devuelve lo mismo
 ム esMasLargoQue("Rosario", "Bahía Blanca")
 false
 ム esMasLargoQue("Valle de Uco", "La Punta")
-true # si los argumentos cambian, el resultado puede ser diferente también 
+true // si los argumentos cambian, el resultado puede ser diferente también 
 ```
 
 > Veamos si se va entendiendo: 
