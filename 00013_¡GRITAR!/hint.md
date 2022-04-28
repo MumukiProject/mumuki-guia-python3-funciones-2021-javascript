@@ -2,7 +2,7 @@ Tené en cuenta que los signos de admiración `"¡"` y `"!"` (al igual que los e
 
 Por ejemplo: 
 
-```python
+```javascript
 ム "todo" + "terreno"
 "todoterreno"
 

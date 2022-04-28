@@ -1,10 +1,13 @@
-Una conocida banda, para agregar gritos varios a su canción, nos pidió que desarrollemos una función `gritar`, que tome un string y lo devuelva en mayúsculas y entre signos de exclamación.
+Una conocida banda, para agregar gritos varios a su canción, nos pidió definir la función `gritar`, que toma un string y lo devuelve en mayúsculas y entre signos de exclamación.
 
 Por ejemplo:
 
-```python
+```javascript
 ム gritar("miguel")
 "¡MIGUEL!"
+
+ム gritar("benito")
+"¡BENITO!"
 ```
 
-> Definí la función `gritar`. Recordá la función `str.upper` que convierte en mayúsculas un string.
+> Definí la función `gritar`. Recordá que la primitiva  `.toUpperCase()` convierte en mayúsculas un string.
