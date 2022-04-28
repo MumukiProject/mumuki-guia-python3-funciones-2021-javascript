@@ -10,16 +10,16 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`suma_longitudes` es una función"
+  value: "`sumaLongitudes` es una función"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`suma_longitudes` tiene dos parámetros"
+  value: "`sumaLongitudes` tiene dos parámetros"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`suma_longitudes` puede ser invocada con 2 argumentos"
+  value: "`sumaLongitudes` puede ser invocada con 2 argumentos"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: si escribimos `suma_longitudes("aprendiendo", "programación")`, `"aprendiendo"`
+  value: si escribimos `sumaLongitudes("aprendiendo", "programación")`, `"aprendiendo"`
     será el primer argumento y `"programación"`, el segundo
   checked: true
 name: Funciones con agujeritos

@@ -2,26 +2,26 @@
 
 Una función puede _declarar_ tantos parámetros como necesite en su definición; por cada uno de ellos, deberemos pasar un argumento al invocarla. Lo interesante es que no importa qué argumentos utilicemos, ya que a cada uno lo conoceremos con el nombre de su parámetro. En este ejemplo, si escribimos en la consola...
 
-```python
-ム suma_longitudes("aprendiendo", "programación")
+```javascript
+ム sumaLongitudes("aprendiendo", "programación")
 ```
-...dentro de la función `suma_longitudes` el argumento `"aprendiendo"` será `un_string` y `"programación"` será `otro_string`:
+...dentro de la función `sumaLongitudes` el argumento `"aprendiendo"` será `unString` y `"programación"` será `otroString`:
 
-```python
-def suma_longitudes(un_string, otro_string):
-  #                     ▲           ▲
-  #              "aprendiendo"  "programación"
-  return len(un_string) + len(otro_string)  
-  #            ▲                  ▲
-  #     len("aprendiendo")  len("programación")
+```javascript
+function sumaLongitudes(unString, otroString){
+  //                        ▲           ▲
+  //                  "aprendiendo" "programación"
+  return unString.length + otroString.length  
+  //            ▲                  ▲
+  //    "aprendiendo".length  "programación".length
 ```
 
 Sin embargo, si lo invocamos escribiendo...
 
-```python
-ム suma_longitudes("conociendo", "Python")
+```javascript
+ム sumaLongitudes("conociendo", "JavaScript")
 ```
 
-... ahora el parámetro `un_string` tiene como valor `"conociendo"` y `otro_string` _vale_ `"Python"`.
+... ahora el parámetro `unString` tiene como valor `"conociendo"` y `otroString` _vale_ `"JavaScript"`.
 
 ¡Por eso es tan importante darle un buen nombre! 
