@@ -5,4 +5,7 @@ expectations:
   inspection: Except:DoesTypeTest
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:esFinDeSemana
+  inspection: DeclaresFunction:esFinDeSemana
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:esFinDeSemana
