@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:esta_entre
+  inspection: Declares:estaEntre
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:esta_fuera_de_rango
+  inspection: Declares:estaFueraDeRango
