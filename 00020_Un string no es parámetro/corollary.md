@@ -2,6 +2,6 @@
 
 ```javascript
 function esBiblioteca(lugar){
-  return lugar.includes("biblioteca");
+  return lugar.includes("Biblioteca");
 }
 ```

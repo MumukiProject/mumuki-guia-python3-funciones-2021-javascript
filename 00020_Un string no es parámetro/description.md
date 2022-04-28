@@ -17,7 +17,7 @@ false
 > 
 > ```javascript
 > function esBiblioteca("lugar"){
->  return "lugar".includes("biblioteca");
+>  return "lugar".includes("Biblioteca");
 > }
 > ```
 > ...¿está bien escrita? :eyes:
