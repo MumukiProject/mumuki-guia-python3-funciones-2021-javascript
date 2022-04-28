@@ -3,17 +3,17 @@
 Pero a no desesperar :scream:: si algo no sale recordá que podés enviar tantas veces como necesites, siempre podés consultar los ejercicios anteriores. ¡Y la ayuda, claro! :wink: 
 
 
-> Definí la función `es_hora_de_la_verdad`, que tome una hora y nos diga si son las `12` y probala en la consola:
+> Definí la función `esHoraDeLaVerdad`, que tome una hora y nos diga si son las `12` y probala en la consola:
 >
-> ```python
-> ム es_hora_de_la_verdad(0)
-> False
-> ム es_hora_de_la_verdad(11)
-> False
-> ム es_hora_de_la_verdad(12)
-> True
-> ム es_hora_de_la_verdad(23)
-> False
+> ```javascript
+> ム esHoraDeLaVerdad(0)
+> false
+> ム esHoraDeLaVerdad(11)
+> false
+> ム esHoraDeLaVerdad(12)
+> true
+> ム esHoraDeLaVerdad(23)
+> false
 > ```
 >
 > Al terminar, presioná enviar. 
