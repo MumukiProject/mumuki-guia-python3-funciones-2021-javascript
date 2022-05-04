@@ -10,4 +10,4 @@ Por ejemplo:
 "¡BENITO!"
 ```
 
-> Definí la función `gritar`. Recordá que la primitiva  `.toUpperCase()` convierte en mayúsculas un string.
+> Definí la función `gritar`. Recordá que la primitiva  `toUpperCase()` convierte en mayúsculas un string.
