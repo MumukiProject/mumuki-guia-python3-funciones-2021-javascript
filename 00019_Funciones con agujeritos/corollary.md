@@ -11,9 +11,10 @@ Una función puede _declarar_ tantos parámetros como necesite en su definición
 function sumaLongitudes(unString, otroString){
   //                        ▲           ▲
   //                  "aprendiendo" "programación"
-  return unString.length + otroString.length  
+  return unString.length + otroString.length;  
   //            ▲                  ▲
   //    "aprendiendo".length  "programación".length
+}
 ```
 
 Sin embargo, si lo invocamos escribiendo...
