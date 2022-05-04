@@ -15,8 +15,6 @@ false
 true
 ```
 
-Como ves, en JavaScript contamos con operadores como `===`, `>=`, `>`, `<`,`<=` que nos dicen si dos valores son iguales, mayores-o-iguales, mayores, etc. Los vamos a usar bastante :grin:.
-
 > ¡Ahora te toca a vos! Dani también dice que a alguien `leGustaLeer`, cuando la cantidad de libros que recuerda haber leído es mayor a 20. Por ejemplo:
 > 
 > ```javascript

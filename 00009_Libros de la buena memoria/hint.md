@@ -1,1 +1,1 @@
-Como vimos anteriormente, en JavaScript contamos con operadores como `>=`, `>`, `<`,`<=` que nos dicen si dos valores son  mayores-o-iguales, mayores, menores, etc. Los vamos a usar bastante :grin:.
+Como vimos anteriormente, en JavaScript contamos con operadores como `>=`, `>`, `<`,`<=` que nos dicen si dos valores son  mayores-o-iguales, mayores, menores, etc. Los vamos a usar bastante. :grin:
